@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 21, 2022, 2:59:50 PM
+    Author     : catal
+*/
+
+
+body{    
+    margin: 0;    
+    background: #222;
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+header{
+    
+    text-align: center;
+    background-color: #55d6aa;
+    padding-top: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+nav{
+    width: 100%;  
+    background-color: black;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    color: white;
+}
+
+li{
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 15px;
+  
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+}
+
+.titlu{
+    color: white;
+}
+
+.text{
+    float: left;
+    font-size: 1.5vw;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 60%;
+}
+
+.img{
+    background: url('https://www.thoughtco.com/thmb/iA9sN0EejCTQIaTtBeSis5c7eMM=/3686x2458/filters:fill(auto,1)/system-of-units-with-names-605777630-5ab29b28a474be00193f2a4d.jpg');
+    float: right;
+    width: 30%;
+    height: 805px;
+    margin-right: 20px;
+    margin-top: 70px;
+}
+
+.info{
+    font-size: 1em;
+    text-align:  center;
+    padding-top: 50px;
+}
